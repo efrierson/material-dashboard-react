@@ -14,16 +14,16 @@ Coded by www.creative-tim.com
 */
 
 // Images
-import kal from "assets/images/kal-visuals-square.jpg";
-import marie from "assets/images/marie.jpg";
-import ivana from "assets/images/ivana-square.jpg";
+import kal from "assets/images/team-3.jpg";
+import marie from "assets/images/team-5.jpg";
+import ivana from "assets/images/team-1.jpg";
 import team3 from "assets/images/team-3.jpg";
 import team4 from "assets/images/team-4.jpg";
 
 export default [
   {
     image: kal,
-    name: "Sophie B.",
+    name: "Mason H.",
     description: "Hi! I need more information..",
     action: {
       type: "internal",
@@ -34,7 +34,7 @@ export default [
   },
   {
     image: marie,
-    name: "Anne Marie",
+    name: "Eric F.",
     description: "Awesome work, can you..",
     action: {
       type: "internal",
@@ -45,8 +45,8 @@ export default [
   },
   {
     image: ivana,
-    name: "Ivanna",
-    description: "About files I can..",
+    name: "Alex J.",
+    description: "Custom cable is done..",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",
@@ -56,8 +56,8 @@ export default [
   },
   {
     image: team4,
-    name: "Peterson",
-    description: "Have a great afternoon..",
+    name: "Alexandra M.",
+    description: "What a great afternoon..",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",
@@ -67,8 +67,8 @@ export default [
   },
   {
     image: team3,
-    name: "Nick Daniel",
-    description: "Hi! I need more information..",
+    name: "Mason H.",
+    description: "Where were you this afternoon..",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",

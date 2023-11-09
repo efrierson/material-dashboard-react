@@ -48,11 +48,7 @@ function Notifications() {
 
   const alertContent = (name) => (
     <MDTypography variant="body2" color="white">
-      A simple {name} alert with{" "}
-      <MDTypography component="a" href="#" variant="body2" fontWeight="medium" color="white">
-        an example link
-      </MDTypography>
-      . Give it a click if you like.
+      {name}
     </MDTypography>
   );
 
@@ -121,19 +117,21 @@ function Notifications() {
                 <MDTypography variant="h5">Alerts</MDTypography>
               </MDBox>
               <MDBox pt={2} px={2}>
-                <MDAlert color="primary" dismissible>
+                {/* <MDAlert color="primary" dismissible>
                   {alertContent("primary")}
-                </MDAlert>
-                <MDAlert color="secondary" dismissible>
+                </MDAlert> */}
+                {/* <MDAlert color="secondary" dismissible>
                   {alertContent("secondary")}
-                </MDAlert>
+                </MDAlert> */}
                 <MDAlert color="success" dismissible>
-                  {alertContent("success")}
+                  {alertContent(
+                    "FINISHED EARLY: Alex designing custom cable for Komatsu for El Paso"
+                  )}
                 </MDAlert>
                 <MDAlert color="error" dismissible>
-                  {alertContent("error")}
+                  {alertContent("OVERDUE: Legal for Austin Resource Recovery")}
                 </MDAlert>
-                <MDAlert color="warning" dismissible>
+                {/* <MDAlert color="warning" dismissible>
                   {alertContent("warning")}
                 </MDAlert>
                 <MDAlert color="info" dismissible>
@@ -144,12 +142,12 @@ function Notifications() {
                 </MDAlert>
                 <MDAlert color="dark" dismissible>
                   {alertContent("dark")}
-                </MDAlert>
+                </MDAlert> */}
               </MDBox>
             </Card>
           </Grid>
 
-          <Grid item xs={12} lg={8}>
+          {/* <Grid item xs={12} lg={8}>
             <Card>
               <MDBox p={2} lineHeight={0}>
                 <MDTypography variant="h5">Notifications</MDTypography>
@@ -186,7 +184,7 @@ function Notifications() {
                 </Grid>
               </MDBox>
             </Card>
-          </Grid>
+          </Grid> */}
         </Grid>
       </MDBox>
       <Footer />
